@@ -14,5 +14,6 @@ var $plugins =
 {"name":"DataCacheBlocker","status":true,"description":"キャッシュを阻止します。（dataフォルダのみ）","parameters":{}},
 {"name":"EnemyBook","status":true,"description":"モンスター図鑑です。敵キャラの詳細なステータスを表示します。","parameters":{"Unknown Data":"？？？？？？"}},
 {"name":"TitleNewGameOnly","status":true,"description":"ニューゲームオンリープラグイン","parameters":{"PressStart":"タップまたはクリックでスタート","FontFace":"","ContinueEnable":"OFF"}},
-{"name":"UR65_SmartPhoneUI","status":true,"description":"スマホ用UI  ver 1.0.0\nUIのサイズをスマートフォン向けに最適化します。","parameters":{"タイトル":"1","メニュー":"1","アイテム":"1","スキル":"1","装備":"1","オプション":"1","ゲーム終了":"1","戦闘":"1","ショップ":"1","イベント関係":"1","アイコン位置修正":"1"}}
+{"name":"UR65_SmartPhoneUI","status":true,"description":"スマホ用UI  ver 1.0.0\nUIのサイズをスマートフォン向けに最適化します。","parameters":{"タイトル":"1","メニュー":"1","アイテム":"1","スキル":"1","装備":"1","オプション":"1","ゲーム終了":"1","戦闘":"1","ショップ":"1","イベント関係":"1","アイコン位置修正":"1"}},
+{"name":"MakeScreenCapture","status":true,"description":"画面キャプチャ管理プラグイン","parameters":{"PNGキャプチャキー":"F6","JPEGキャプチャキー":"F7","WEBPキャプチャキー":"F9","ファイル名":"image","出力場所":"/captures","保存形式":"png","連番桁数":"2","タイムスタンプ":"ON","署名":"","署名サイズ":"22","署名画像":"","実行間隔":"0","効果音":""}}
 ];
